@@ -24,20 +24,20 @@ export default function NewsIcon({ title, urlToImage, content, author }) {
   return (
     <Box sx={{ flexGrow: 1, display: 'flex', flexDirection: 'column' }}>
       <Grid container spacing={2}>
-        <Grid item xs={10}>
+        <Grid item xs={12}>
           <Item sx={{ margin: '15px' }}>
             <Image src={urlToImage} alt="image" />
           </Item>
         </Grid>
 
-        <Grid item xs={5}>
+        <Grid item xs={6}>
           <Item sx={{ margin: '15px' }}>
             <Title>{title}</Title>
             <Content>{author}</Content>
           </Item>
         </Grid>
 
-        <Grid item xs={5}>
+        <Grid item xs={6}>
           <Item sx={{ margin: '15px' }}>
             <Content>{content}</Content>
           </Item>
