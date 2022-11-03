@@ -1,15 +1,8 @@
 import React from 'react'
 import Box from '@mui/material/Box'
-// import Chip from '@mui/material/Chip';
-import Button from '@mui/material/Button'
 import Grid from '@mui/material/Grid'
-// import Stack from '@mui/material/Stack';
-import Divider from '@mui/material/Divider'
-import Typography from '@mui/material/Typography'
 import { Image, Title, Content } from './styledComponents'
-
 import { styled } from '@mui/material/styles'
-
 import Paper from '@mui/material/Paper'
 
 const Item = styled(Paper)(({ theme }) => ({
