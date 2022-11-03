@@ -17,11 +17,11 @@ function News() {
 
   return (
     <div>
-      {articles.map(({ title, urlToImage, description, author }) => (
+      {articles.map(({ title, urlToImage, content, author }) => (
         <NewsIcon
           title={title}
           urlToImage={urlToImage}
-          description={description}
+          content={content}
           author={author}
         />
       ))}

@@ -10,7 +10,7 @@ function Navbar() {
   }
   return (
     <header>
-      <h3>The Biz</h3>
+      <h3>PaperBoy</h3>
       <nav ref={navRef}>
         <a href="#">Headlines</a>
         <a href="#">Search</a>
