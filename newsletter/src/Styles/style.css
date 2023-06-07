@@ -22,15 +22,22 @@ header {
   padding: 0 2rem;
   background-color: var(--mainColor);
   color: var(--textColor);
+  position: fixed;
+  width: 100%;
 }
 
 nav a {
   margin: 0;
   color: var(--textColor);
   text-decoration: none;
+  padding-left: 1rem;
 }
 nav a:hover {
   color: var(--secondaryColor);
+  font-size: 1.6rem;
+  transition: 0.5s;
+  transform: translateY(-100vh);
+  
 }
 
 header .nav-btn {
