@@ -12,10 +12,10 @@ function Navbar() {
     <header>
       <h3>PaperBoy</h3>
       <nav ref={navRef}>
-        <a href="#">Headlines</a>
+        {/* <a href="#">Headlines</a>
         <a href="#">Search</a>
         <a href="#">Messages</a>
-        <a href="#">Profile</a>
+        <a href="#">Profile</a> */}
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
           <FaTimes />
         </button>
